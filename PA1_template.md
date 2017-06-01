@@ -57,7 +57,7 @@ paste("Median total steps per day is",median(total_steps_per_day$steps))
 ```
 
 
-###Time series plot and maximum average steps taken in 5 minute interval across all days
+### Time series plot and maximum average steps taken in 5 minute interval across all days
 
 The following code plots the time series of 5 minute interval and average number of steps taken across all days. It also calculates which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps
 
@@ -78,7 +78,7 @@ paste("Interval having maximum number of average steps is ",avg_steps_per_interv
 ```
 
 
-###Imputing missing values, plotting histogram and recalculating mean median
+### Imputing missing values, plotting histogram and recalculating mean median
 
 The following code calculates number of missing values in the steps attribute, fills in the missing value by the average steps in that 5 min interval, draws histogram of the total number of the steps per day, calculates mean and median and reports the difference in measures from that of the previous estimates.
 
@@ -127,7 +127,7 @@ paste("Recalculated median total steps per day is",median(recalculated_total_ste
 **The mean and median have reduced from the previous estimates**
 
 
-###Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
+### Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
 The following code creates a factor variable weekday_indicator based on whether a date is weekday or weekend and makes a time series panel plot of average number of steps by 5 min interval across all weekdays or weekend days
 
